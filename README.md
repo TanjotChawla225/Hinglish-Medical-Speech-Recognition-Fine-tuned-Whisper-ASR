@@ -1,4 +1,3 @@
-
 # Hinglish Medical Speech Recognition — Fine-tuned Whisper ASR
 
 Fine-tuning OpenAI's Whisper model to transcribe Hindi-English code-mixed
@@ -114,11 +113,7 @@ gaps — and being able to explain them — is part of doing this properly:
 
 ```
 ├── notebook.ipynb          # Full pipeline, runs end-to-end on Colab T4 GPU
-├── results/
-│   ├── baseline_results.csv
-│   ├── finetuned_results.csv
-│   ├── error_analysis.csv
-│   └── *.png                # WER comparison charts
+│                            # (outputs — WER tables, charts — saved inline in the notebook)
 └── README.md
 ```
 
